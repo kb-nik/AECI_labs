@@ -1,0 +1,85 @@
+2025-11-17 21:10:23,116 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:10:23,117 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:10:23,117 - Encode: labs_1/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0011s
+2025-11-17 21:10:39,387 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:10:39,387 - Decode: original length = 540 bytes
+2025-11-17 21:10:39,387 - Decode error: Символ не найден
+2025-11-17 21:14:30,349 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:14:30,349 - Decode: original length = 540 bytes
+2025-11-17 21:14:30,350 - Decode error: Символ не найден
+2025-11-17 21:15:29,642 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:15:29,643 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:15:29,643 - Encode: labs_1/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0012s
+2025-11-17 21:15:42,804 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:15:42,804 - Decode: original length = 540 bytes
+2025-11-17 21:15:42,804 - Decode error: Символ не найден
+2025-11-17 21:16:27,433 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:16:27,434 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:16:27,434 - Encode: labs_1/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0012s
+2025-11-17 21:16:27,469 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:16:27,469 - Decode: original length = 540 bytes
+2025-11-17 21:16:27,469 - Decode error: Символ не найден
+2025-11-17 21:16:54,430 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:16:54,431 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:16:54,431 - Encode: labs_1/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0010s
+2025-11-17 21:16:54,469 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:16:54,469 - Decode: original length = 540 bytes
+2025-11-17 21:16:54,470 - Decode: successfully decoded 540 bytes
+2025-11-17 21:16:54,471 - Decode: labs2/test.zhm (226B) -> labs2/restored.txt (540B), time=0.0015s
+2025-11-17 21:18:35,091 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:18:35,092 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:18:35,092 - Encode: labs_1/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0010s
+2025-11-17 21:18:35,127 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:18:35,127 - Decode: original length = 540 bytes
+2025-11-17 21:18:35,128 - Decode: successfully decoded 540 bytes
+2025-11-17 21:18:35,129 - Decode: labs2/test.zhm (226B) -> labs2/restored.txt (540B), time=0.0016s
+2025-11-17 21:19:16,999 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:19:17,000 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:19:17,000 - Encode: labs_1/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0015s
+2025-11-17 21:19:17,040 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:19:17,040 - Decode: original length = 540 bytes
+2025-11-17 21:19:17,041 - Decode: successfully decoded 540 bytes
+2025-11-17 21:19:17,041 - Decode: labs2/test.zhm (226B) -> labs2/restored.txt (540B), time=0.0016s
+2025-11-17 21:20:26,432 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:20:26,434 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:20:26,434 - Encode: labs_1/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0014s
+2025-11-17 21:20:26,481 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:20:26,481 - Decode: original length = 540 bytes
+2025-11-17 21:20:26,483 - Decode: successfully decoded 540 bytes
+2025-11-17 21:20:26,483 - Decode: labs2/test.zhm (226B) -> labs2/restored.txt (540B), time=0.0015s
+2025-11-17 21:20:40,841 - Encode: built frequency table with 3 symbols, total=6
+2025-11-17 21:20:40,841 - Encode: output 28 bytes for 6 input bytes
+2025-11-17 21:20:40,841 - Encode: /tmp/test_simple.txt (6B) -> /tmp/test_simple.zhm (28B), -366.67% saved, time=0.0002s
+2025-11-17 21:20:40,877 - Decode: loaded frequency table with 3 symbols
+2025-11-17 21:20:40,878 - Decode: original length = 6 bytes
+2025-11-17 21:20:40,878 - Decode: successfully decoded 6 bytes
+2025-11-17 21:20:40,878 - Decode: /tmp/test_simple.zhm (28B) -> /tmp/test_restored.txt (6B), time=0.0003s
+2025-11-17 21:20:40,878 - Decode: matches original file
+2025-11-17 21:21:30,918 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:21:30,918 - Decode: original length = 540 bytes
+2025-11-17 21:21:30,919 - Decode: successfully decoded 540 bytes
+2025-11-17 21:21:30,919 - Decode: labs2/test.zhm (226B) -> labs2/restored.txt (540B), time=0.0015s
+2025-11-17 21:22:20,168 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:22:20,169 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:22:20,169 - Encode: labs2/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0010s
+2025-11-17 21:22:20,201 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:22:20,201 - Decode: original length = 540 bytes
+2025-11-17 21:22:20,203 - Decode: successfully decoded 540 bytes
+2025-11-17 21:22:20,203 - Decode: labs2/test.zhm (226B) -> labs2/restored.txt (540B), time=0.0015s
+2025-11-17 21:23:18,468 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:23:18,469 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:23:18,469 - Encode: labs2/input.txt (540B) -> labs2/test.zhm (226B), 58.15% saved, time=0.0010s
+2025-11-17 21:23:18,506 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:23:18,506 - Decode: original length = 540 bytes
+2025-11-17 21:23:18,508 - Decode: successfully decoded 540 bytes
+2025-11-17 21:23:18,508 - Decode: labs2/test.zhm (226B) -> labs2/restored.txt (540B), time=0.0015s
+2025-11-17 21:26:56,147 - Encode: built frequency table with 7 symbols, total=540
+2025-11-17 21:26:56,148 - Encode: output 226 bytes for 540 input bytes
+2025-11-17 21:26:56,148 - Encode: input.txt (540B) -> test.zhm (226B), 58.15% saved, time=0.0010s
+2025-11-17 21:27:19,280 - Encode: built frequency table with 7 symbols, total=1069200
+2025-11-17 21:27:20,307 - Encode: output 355097 bytes for 1069200 input bytes
+2025-11-17 21:27:20,312 - Encode: input.txt (1069200B) -> test.zhm (355097B), 66.79% saved, time=1.1210s
+2025-11-17 21:28:08,894 - Decode: loaded frequency table with 7 symbols
+2025-11-17 21:28:08,894 - Decode: original length = 1069200 bytes
+2025-11-17 21:28:10,639 - Decode: successfully decoded 1069200 bytes
+2025-11-17 21:28:10,641 - Decode: test.zhm (355097B) -> output.txt (1069200B), time=1.7464s

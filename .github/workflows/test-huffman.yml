@@ -1,0 +1,18 @@
+name: Test Huffman
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Run tests
+        run: |
+          cd labs_1
+          echo "beep boop beer!" > input.txt
+          python3 main.py encode input.txt compressed
+          python3 main.py decode compressed.zhm output.txt
+          diff input.txt output.txt || { echo "Test failed: decoded file differs from original"; exit 1; }
