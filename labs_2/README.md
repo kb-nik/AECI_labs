@@ -4,6 +4,7 @@
 
 ## Как юзать
 
+
 ```bash
 git clone https://github.com/kb-nik/AECI_labs.git
 cd AECI_labs/labs2
@@ -45,4 +46,4 @@ python3 main.py decode compressed.zhm output.txt
 
 - Маленькие файлы плохо сжимаются (таблица частот занимает место в заголовке)
 - Арифметика чуть лучше Хаффмана (226 vs 230 байт)
-- Только целые числа, никаких float
+- Водяной знак ZHM! защищает от подмены.
