@@ -210,9 +210,9 @@ def decode_data(comp_data):
     result = bytearray()
     for _ in range(orig_len):
         interval_len = hi - li + 1
-        # Вычисляем частоту - формула из книги (стр. 41)
-        freq = (value - li) * table.total // interval_len  
-        # Важная проверка для последнего символа в интервале (стр. 41 Ватолина)
+        # Вычисляем частоту - правильная формула для декодирования
+        freq = ((value - li + 1) * table.total - 1) // interval_len  
+        # Важная проверка для последнего символа в интервале
         if freq >= table.total:
             freq = table.total - 1
         symbol = table.find_symbol(freq)
