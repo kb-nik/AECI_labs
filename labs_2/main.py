@@ -49,7 +49,7 @@ class FreqTable:
                 left = mid + 1
             else:
                 return self.symbols[mid]
-        raise ValueError("Символ не найден")
+        raise ValueError(f"Символ не найден: value={value}, total={self.total}")
     
     def serialize(self):
         out = len(self.symbols).to_bytes(2, 'little')
@@ -175,7 +175,6 @@ def encode_data(raw_data):
                 break
             li = li * 2
             hi = hi * 2 + 1
-    # Финализация - выводим достаточно битов чтобы декодер мог восстановить последний символ
     bits_to_follow += 1
     if li < FIRST_QTR:
         writer.write(0)
@@ -211,10 +210,15 @@ def decode_data(comp_data):
     result = bytearray()
     for _ in range(orig_len):
         interval_len = hi - li + 1
-        freq = (value - li) * table.total // interval_len
+        # Вычисляем частоту - формула из книги (стр. 41)
+        freq = (value - li) * table.total // interval_len  
+        # Важная проверка для последнего символа в интервале (стр. 41 Ватолина)
+        if freq >= table.total:
+            freq = table.total - 1
         symbol = table.find_symbol(freq)
         result.append(symbol)
         a_c, b_c = table.get_range(symbol)
+        # Точно такие же формулы как в кодере
         hi = li + (b_c * interval_len) // table.total - 1
         li = li + (a_c * interval_len) // table.total
         while True:
